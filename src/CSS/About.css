@@ -1,0 +1,99 @@
+.about {
+  background: #252129;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+.about__content,
+.about__contacts {
+  display: flex;
+}
+.about__profilePic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 30px;
+}
+.about__contactDetails {
+  width: 60%;
+}
+.about__contactDetails a {
+  color: #fff;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+.about__contactDetails a:hover {
+  color: #642f8a;
+  text-decoration: underline;
+}
+.about__contactFreelance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+}
+.about__contactFreelance a {
+  width: 100%;
+  transition: 300ms ease-in-out;
+}
+.about__contactFreelance a:hover {
+  transform: scale(1.05);
+  transform-origin: center center;
+}
+.about__contactFreelance a:hover .about__button {
+  box-shadow: 0px 5px 20px rgba(100, 47, 138, 0.5);
+}
+.about__contactFreelance .about__button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+
+  background-color: #e0dbe5;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border-width: 0;
+  transition: 300ms ease-in-out;
+}
+.about__button img {
+  height: 30px;
+  object-fit: contain;
+}
+.about h2 {
+  font-size: 22px;
+  font-family: "montserrat", "Open Sans";
+  color: #fff;
+  margin-bottom: 12px;
+}
+.about p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+/*=======================================================
+MEDIA QUERIES for ABOUT
+=======================================================*/
+
+@media only screen and (max-width: 900px) {
+  .about__profilePicContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .about__content,
+  .about__contacts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about__contactDetails {
+    width: 100%;
+  }
+  .about__contactFreelance {
+    width: 100%;
+  }
+}

@@ -1,0 +1,59 @@
+.footer {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  color: #303030;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+.footer__socialIcons {
+  margin: 24px 0;
+  padding: 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.footer__socialIcons a {
+  margin: 0 15px;
+}
+.footer__socialIcons li {
+  display: inline-block;
+  padding: 0;
+}
+.footer__socialIcon {
+  font-size: 30px !important;
+  color: #303030;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    transform 300ms ease-in-out 0ms !important;
+}
+.footer__socialIcon:hover {
+  transform: scale(1.05);
+  transform-origin: center center;
+  color: #642f8a;
+}
+.footer__copyright {
+  list-style: none;
+}
+.footer__goToTop {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: #eee;
+
+  transition: 300ms ease-in-out;
+}
+.footer__goToTop:hover {
+  transform: scale(1.05) translate(-50%, -50%);
+  transform-origin: center center;
+  background-color: #642f8a;
+}
+.footer__goToTop:hover .MuiSvgIcon-root {
+  color: #eee;
+}

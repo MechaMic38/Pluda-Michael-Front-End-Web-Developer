@@ -1,0 +1,107 @@
+{
+  "about": {
+    "image": "PIC_Mecha.jpg",
+    "freelance": [
+      {
+        "website": "https://www.fiverr.com/users/mechamic_38",
+        "image": "fiverr.png",
+        "title": "Visit my Fiverr page!"
+      },
+      {
+        "website": "https://www.freelancer.com/u/MechaMic38",
+        "image": "freelancer.png",
+        "title": "Visit my Freelancer page!"
+      },
+      {
+        "website": "https://www.upwork.com/o/profiles/users/~0179a06454be4229f9/",
+        "image": "upwork.png",
+        "title": "Visit my Upwork page!"
+      }
+    ]
+  },
+  "resume": {
+    "clouds": ["mist-1.png", "cloud-2.png", "mist-2.png", "cloud-3.png"],
+    "skills": [
+      {
+        "name": "HTML5",
+        "image": "html5.svg",
+        "title": "HTML5",
+        "description": "The skeleton of any website. HTML alone didn't make that huge impression on me, actually I was a bit disappointed, but I kept studying, I was curious."
+      },
+      {
+        "name": "CSS3",
+        "image": "css3.svg",
+        "title": "CSS3",
+        "description": "The designer / styler of any website. This completely changed my perspective, and I started loving Front-End more than before."
+      },
+      {
+        "name": "Javascript",
+        "image": "javascript.svg",
+        "title": "Javascript",
+        "description": "Adding interactivity is important, in every website, even the smaller ones. This allows you to do that, and even more."
+      },
+      {
+        "name": "ReactJs",
+        "image": "react.svg",
+        "title": "ReactJs",
+        "description": "New to this language, but willing to learn it. I've seen what it can do... and I want to be able to use it too."
+      },
+      {
+        "name": "JQuery",
+        "image": "JQuery.svg",
+        "title": "JQuery",
+        "description": "A very useful Javascript library, as their motto says \"Write less, do more\"."
+      },
+      {
+        "name": "C",
+        "image": "c-programming.svg",
+        "title": "C programming Language",
+        "description": "Language I am studying in university. Not an expert, but I already know some stuff."
+      },
+      {
+        "name": "Java",
+        "image": "java.svg",
+        "title": "Java",
+        "description": "Language I am studying in university. I personally enjoy this language, as it allows you to create a wide range of programs."
+      },
+      {
+        "name": "Adobe XD",
+        "image": "adobe-xd.svg",
+        "title": "Adobe XD",
+        "description": "Creating a preview of the website you are going to build will help you a lot. There are many softwares out there, but this is my favourite."
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Covid-19 Tracker Web App",
+        "category": "A Covid-19 tracking website, both worldwide and for specific country, built with ReactJs",
+        "image": "project-covid-tracker.png",
+        "url": "https://mechamic38-covid19-tracker.web.app/countryData",
+        "code": "https://github.com/MechaMic38/Covid-19-Tracker-Web-App"
+      },
+      {
+        "title": "Mechazon | Amazon ReactJs clone",
+        "category": "Amazon clone (named after my pseudonym), built with ReactJs",
+        "image": "project-mechazon.png",
+        "url": "https://challenge-f0ac9.web.app",
+        "code": "https://github.com/MechaMic38"
+      },
+      {
+        "title": "Mechagle | Google ReactJs clone",
+        "category": "Google clone (named after my pseudonym), built with ReactJs",
+        "image": "project-mechagle.png",
+        "url": "https://mechagle.web.app",
+        "code": "https://github.com/MechaMic38"
+      },
+      {
+        "title": "[NOT OFFICIAL] Dirt Rally 2.0 Survey Form",
+        "category": "Project for FreeCodeCamp's Responsive Web Design certification",
+        "image": "project-dirt.png",
+        "url": "https://codepen.io/mechamic38/full/dyMoVjj",
+        "code": "https://codepen.io/mechamic38/full/dyMoVjj"
+      }
+    ]
+  }
+}
