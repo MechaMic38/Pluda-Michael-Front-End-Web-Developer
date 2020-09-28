@@ -75,29 +75,29 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Mechazon | Amazon ReactJs clone",
+        "category": "Amazon clone (named after my pseudonym), built with ReactJs. It implements User Authentication, Stripe payment system (not working online, due to impossibility to upgrade to Firebase Blaze plan), side mega menu and image carousel.",
+        "image": "project-mechazon.png",
+        "url": "https://challenge-f0ac9.web.app",
+        "code": "https://github.com/MechaMic38/Mechazon-Amazon-React-Clone"
+      },
+      {
         "title": "Covid-19 Tracker Web App",
-        "category": "A Covid-19 tracking website, both worldwide and for specific country, built with ReactJs",
+        "category": "A Covid-19 tracking website, both worldwide data [Worldwide page] and specific country data [CountryData page], built with ReactJs. Takes data from disease.sh and restcountries.eu APIs.",
         "image": "project-covid-tracker.png",
         "url": "https://mechamic38-covid19-tracker.web.app/countryData",
         "code": "https://github.com/MechaMic38/Covid-19-Tracker-Web-App"
       },
       {
-        "title": "Mechazon | Amazon ReactJs clone",
-        "category": "Amazon clone (named after my pseudonym), built with ReactJs",
-        "image": "project-mechazon.png",
-        "url": "https://challenge-f0ac9.web.app",
-        "code": "https://github.com/MechaMic38"
-      },
-      {
-        "title": "Mechagle | Google ReactJs clone",
-        "category": "Google clone (named after my pseudonym), built with ReactJs",
-        "image": "project-mechagle.png",
-        "url": "https://mechagle.web.app",
-        "code": "https://github.com/MechaMic38"
+        "title": "Pluda Michael | Front-End Web Developer",
+        "category": "Ehm... yep, basically THIS page. Took some time and dedication to build this personal portfolio. But hey, you might be interested in the code ¯\\_(ツ)_/¯",
+        "image": "project-portfolio.png",
+        "url": "https://mechamic38.netlify.app",
+        "code": "https://github.com/MechaMic38/Pluda-Michael-Front-End-Web-Developer"
       },
       {
         "title": "[NOT OFFICIAL] Dirt Rally 2.0 Survey Form",
-        "category": "Project for FreeCodeCamp's Responsive Web Design certification",
+        "category": "Project for FreeCodeCamp's Responsive Web Design certification. An interactive form, when selecting the vehicle class, a hidden section appears, asking you to choose the favourite car from that category.",
         "image": "project-dirt.png",
         "url": "https://codepen.io/mechamic38/full/dyMoVjj",
         "code": "https://codepen.io/mechamic38/full/dyMoVjj"
