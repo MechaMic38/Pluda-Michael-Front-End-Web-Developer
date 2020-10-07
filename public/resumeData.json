@@ -96,11 +96,11 @@
         "code": "https://github.com/MechaMic38/Pluda-Michael-Front-End-Web-Developer"
       },
       {
-        "title": "[NOT OFFICIAL] Dirt Rally 2.0 Survey Form",
-        "category": "Project for FreeCodeCamp's Responsive Web Design certification. An interactive form, when selecting the vehicle class, a hidden section appears, asking you to choose the favourite car from that category.",
-        "image": "project-dirt.png",
-        "url": "https://codepen.io/mechamic38/full/dyMoVjj",
-        "code": "https://codepen.io/mechamic38/full/dyMoVjj"
+        "title": "Mechabook | Facebook ReactJs clone",
+        "category": "Facebook clone (named after my pseudonym), built with ReactJs. Implements User Authentication, and a working backend deployed on Heroku.",
+        "image": "project-mechabook.png",
+        "url": "https://mecha-book.firebaseapp.com",
+        "code": "https://github.com/MechaMic38/Mechabook-Facebook-React-Clone"
       }
     ]
   }
