@@ -36,6 +36,7 @@
 .about__contactFreelance a {
   width: 100%;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
 .about__contactFreelance a:hover {
   transform: scale(1.05);
