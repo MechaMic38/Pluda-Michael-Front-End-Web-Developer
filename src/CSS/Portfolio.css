@@ -28,6 +28,7 @@
   transition: 0.3s ease-in-out;
 }
 .portfolio__item .portfolio__itemWrap {
+  display: block;
   background: #fff;
 
   overflow: hidden;
@@ -38,9 +39,7 @@
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-.portfolio__item .portfolio__itemWrap a {
-  display: block;
+
   cursor: pointer;
 }
 
