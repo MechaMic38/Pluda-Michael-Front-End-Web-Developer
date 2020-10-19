@@ -10,29 +10,22 @@ function Portfolio({ data }) {
     return (
       <div key={projects.title} className="columns portfolio__item">
         <div className="portfolio__itemWrap">
-          <a
-            href={projects.url}
-            target="_blank"
-            title={projects.title}
-            rel="noopener noreferrer"
-          >
-            <img alt={projects.title} src={projectImage} />
-            <div className="overlay">
-              <div className="portfolio__itemMeta">
-                <h5>{projects.title}</h5>
-                <p>{projects.category}</p>
-              </div>
+          <img alt={projects.title} src={projectImage} />
+          <div className="overlay">
+            <div className="portfolio__itemMeta">
+              <h5>{projects.title}</h5>
+              <p>{projects.category}</p>
             </div>
-            <a href={projects.url} target="_blank" rel="noopener noreferrer">
-              <div className="link-icon">
-                <OpenInBrowserIcon />
-              </div>
-            </a>
-            <a href={projects.code} target="_blank" rel="noopener noreferrer">
-              <div className="code-icon">
-                <CodeIcon />
-              </div>
-            </a>
+          </div>
+          <a href={projects.url} target="_blank" rel="noopener noreferrer">
+            <div className="link-icon">
+              <OpenInBrowserIcon />
+            </div>
+          </a>
+          <a href={projects.code} target="_blank" rel="noopener noreferrer">
+            <div className="code-icon">
+              <CodeIcon />
+            </div>
           </a>
         </div>
       </div>

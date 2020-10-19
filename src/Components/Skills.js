@@ -8,7 +8,9 @@ function Skills({ data }) {
       "--i": i + 1,
     };
     let image = "../Images/skills/" + cloud;
-    return <img style={style} className={className} src={image} alt="" />;
+    return (
+      <img key={i} style={style} className={className} src={image} alt="" />
+    );
   });
 
   let skills = data?.skills.map(function (skills) {
@@ -34,8 +36,8 @@ function Skills({ data }) {
           <p className="column skill-title">
             They say you never stop learning... and that describes me perfectly.
             <br />
-            Here are some of the languages and programs I use, or that I am
-            learning right now.
+            Here are some of the languages and programs that have really won me
+            over.
           </p>
         </div>
       </div>

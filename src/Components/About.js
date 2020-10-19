@@ -2,13 +2,18 @@ import "../CSS/About.css";
 import React from "react";
 
 function About({ data }) {
-  const websites = data?.freelance.map(function (website) {
+  const websites = data?.freelance.map(function (website, i) {
     let image = `Images/about/${website.image}`;
 
     return (
-      <a href={website.website} target="_blank" rel="noopener noreferrer">
+      <a
+        key={i}
+        href={website.website}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <button className="about__button" title={website.title}>
-          <img src={image} alt="" />
+          <img src={image} alt={website.name} />
         </button>
       </a>
     );
@@ -21,15 +26,15 @@ function About({ data }) {
           <img
             className="about__profilePic"
             src={`Images/${data?.image}`}
-            alt=""
+            alt={""}
           />
         </div>
         <div className="about__contact nine column">
           <h2>About Me</h2>
           <p>
-            Names's Michael (a.k.a. MechaMic_38), I am a IT Engineering
-            University student, and a Front-End Web Developer (wanna-be Full
-            Stack Dev) by passion{" "}
+            Names's Michael (a.k.a. MechaMic_38), I'm a junior web developer
+            with a passion for coding. Currently, I am also an IT Engineering
+            university student.
           </p>
           <div className="about__contacts row">
             <div className="about__contactDetails column">
