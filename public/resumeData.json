@@ -5,17 +5,20 @@
       {
         "website": "https://www.fiverr.com/users/mechamic_38",
         "image": "fiverr.png",
-        "title": "Visit my Fiverr page!"
+        "title": "Visit my Fiverr page!",
+        "name": "Fiverr"
       },
       {
         "website": "https://www.freelancer.com/u/MechaMic38",
         "image": "freelancer.png",
-        "title": "Visit my Freelancer page!"
+        "title": "Visit my Freelancer page!",
+        "name": "Freelancer"
       },
       {
         "website": "https://www.upwork.com/o/profiles/users/~0179a06454be4229f9/",
         "image": "upwork.png",
-        "title": "Visit my Upwork page!"
+        "title": "Visit my Upwork page!",
+        "name": "Upwork"
       }
     ]
   },
@@ -23,16 +26,28 @@
     "clouds": ["mist-1.png", "cloud-2.png", "mist-2.png", "cloud-3.png"],
     "skills": [
       {
-        "name": "HTML5",
-        "image": "html5.svg",
-        "title": "HTML5",
-        "description": "The skeleton of any website. HTML alone didn't make that huge impression on me, actually I was a bit disappointed, but I kept studying, I was curious."
+        "name": "ReactJs",
+        "image": "react.svg",
+        "title": "ReactJs",
+        "description": "Fairly new to this language, the amount of things you can do with this library is impressive. This exact website is the very first I built using React, and I must say I really love this language."
       },
       {
-        "name": "CSS3",
-        "image": "css3.svg",
-        "title": "CSS3",
-        "description": "The designer / styler of any website. This completely changed my perspective, and I started loving Front-End more than before."
+        "name": "Redux",
+        "image": "redux.svg",
+        "title": "Redux",
+        "description": "Either React Context API or Redux (a bit more complex), you can share common states between components with ease. Not too hard to setup, it gives you a lot of flexibility while programming."
+      },
+      {
+        "name": "Material UI",
+        "image": "material-ui.svg",
+        "title": "Material UI",
+        "description": "An awesome library I always use together with React, whether it is only for icons, or for particularly designed components."
+      },
+      {
+        "name": "Firebase",
+        "image": "firebase.svg",
+        "title": "Firebase",
+        "description": "When I want to host a website (and to easily setup a backend), Firebase is one of the best solutions I know."
       },
       {
         "name": "Javascript",
@@ -41,34 +56,28 @@
         "description": "Adding interactivity is important, in every website, even the smaller ones. This allows you to do that, and even more."
       },
       {
-        "name": "ReactJs",
-        "image": "react.svg",
-        "title": "ReactJs",
-        "description": "New to this language, but willing to learn it. I've seen what it can do... and I want to be able to use it too."
-      },
-      {
         "name": "JQuery",
         "image": "JQuery.svg",
         "title": "JQuery",
-        "description": "A very useful Javascript library, as their motto says \"Write less, do more\"."
+        "description": "A very useful Javascript library, plenty of resources and easy to use, as their motto says \"Write less, do more\"."
       },
       {
-        "name": "C",
-        "image": "c-programming.svg",
-        "title": "C programming Language",
-        "description": "Language I am studying in university. Not an expert, but I already know some stuff."
-      },
-      {
-        "name": "Java",
-        "image": "java.svg",
-        "title": "Java",
-        "description": "Language I am studying in university. I personally enjoy this language, as it allows you to create a wide range of programs."
+        "name": "CSS3",
+        "image": "css3.svg",
+        "title": "CSS3",
+        "description": "The designer / styler of any website. Since I don't like to work with thir-party libraries like Bootstrap or Tailwind, I prefer to style a website with my code, my own way."
       },
       {
         "name": "Adobe XD",
         "image": "adobe-xd.svg",
         "title": "Adobe XD",
         "description": "Creating a preview of the website you are going to build will help you a lot. There are many softwares out there, but this is my favourite."
+      },
+      {
+        "name": "Java",
+        "image": "java.svg",
+        "title": "Java",
+        "description": "Language I am studying in university. I personally enjoy this language, as it allows you to create a wide range of programs."
       }
     ]
   },
@@ -101,6 +110,14 @@
         "image": "project-mechabook.png",
         "url": "https://mecha-book.firebaseapp.com",
         "code": "https://github.com/MechaMic38/Mechabook-Facebook-React-Clone"
+      }
+      ,
+      {
+        "title": "Mechascord | Discord ReactJs clone",
+        "category": "Discord clone (named after my pseudonym), built with ReactJs. Once logged in, you can either join or create a server, and chat with other people (like in the real Discord)",
+        "image": "project-mechascord.png",
+        "url": "https://mechascord.web.app",
+        "code": "https://github.com/MechaMic38/Mechascord-Discord-React-Clone"
       }
     ]
   }
